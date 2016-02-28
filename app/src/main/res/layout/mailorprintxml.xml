@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Send"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/primary_material_dark"/>
+
+
+
+
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <RadioButton
+            android:id="@+id/sendMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+        <RadioButton
+            android:id="@+id/printbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/emailedittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:textColor="@color/primary_material_dark"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_marginLeft="3dp"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="@color/primary_material_dark"-->
+            <!--android:text="ProductName" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/et_productname"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_weight="2"-->
+            <!--android:ems="10"-->
+            <!--android:textColor="@color/primary_material_dark"-->
+            <!--android:singleLine="true"-->
+            <!--android:imeOptions="actionNext"-->
+            <!--android:hint="ProductName"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="@color/primary_material_dark"-->
+            <!--android:layout_marginLeft="3dp"-->
+            <!--android:text="Price" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/et_price"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_weight="2"-->
+            <!--android:imeOptions="actionNext"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/primary_material_dark"-->
+            <!--android:hint="Price"-->
+            <!--android:inputType="numberDecimal"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="@color/primary_material_dark"-->
+            <!--android:layout_marginLeft="3dp"-->
+            <!--android:text="Quantity" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/et_quantity"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_weight="2"-->
+            <!--android:imeOptions="actionDone"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/primary_material_dark"-->
+            <!--android:hint="Quantity"-->
+            <!--android:inputType="numberDecimal"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>

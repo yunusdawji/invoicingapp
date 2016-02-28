@@ -1,0 +1,407 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:id="@+id/shopname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/shopnamelabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Client Name"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/shopnameeditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:hint="Enter Client Name"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/website"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/websitelabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Website"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/websiteeditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:hint="Enter Webstite"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/phonenumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/phonelabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Phone Number"
+
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/phonenumbereditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:hint="Enter Phone Number"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/addresslabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Address"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/addresseditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:hint="Enter Address"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/city"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/citylabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="City"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/cityeditext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:hint="Enter City"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/state"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/statelabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="State"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/stateedittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:hint="Enter State"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/countey"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/countylabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Country"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/countyedittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:hint="Enter Country"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pinumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/pinnumberlabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Pin"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/pineditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:hint="Enter Pin"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/currency"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/currencylabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Enter Currency"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/currencyeditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:hint="Enter Currency"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/weight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/weightlabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Enter Weight"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/weighteditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:imeOptions="actionNext"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/liquid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/liquidlabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="Enter Currency"
+                    android:textColor="@color/primary_material_dark"
+                    android:textSize="12sp" />
+
+
+                <Spinner
+                    android:id="@+id/liquideditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:imeOptions="actionDone"
+                    android:textColor="@color/primary_material_dark" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="Register" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

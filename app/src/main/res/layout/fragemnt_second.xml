@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    >
+
+
+    <TextView
+        android:id="@+id/fragment_description"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Add Description"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/fragment_add_item"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Add Item"
+        android:textStyle="bold"/>
+
+
+
+
+   <!-- <ImageView
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kart"
+        android:layout_below="@id/label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/userinfolabel"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Edit Shop/Merchant info"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/cart"/>
+
+    <ImageView
+        android:id="@+id/usereditinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/edituser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/> -->
+</LinearLayout>

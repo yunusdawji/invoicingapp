@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-c623b4b8cd29c216d576b3546e509a4c69e554a1.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/classes-e4e7b923579c728739df9e20843254aecfd3a667.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/libs/droidText.0.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="8d3b2e377acd34e33c3e758aa512e1745c2c9401">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/droidText.0.2-1897b7563d35b3f573f7b2994b9b1a2a2162e2ab.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/classes-32279f09239895d417fb5113dc71c4a29a8dc1ed.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/ormlite-android-4.48-7c8eedd088ffaa41d941aac845588144476a9136.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/ormlite-core-4.48-97efb9240cc14fb42634690caa1003d9d66f5b0d.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/classes-bf7dbe3925617cc5e0cd6311e0d9c369608fa9ba.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="85ccb558dc8258ecf4f0a19e97a3114ec2c64cb4">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/classes-3a0d232f9517d456ce971386dfdd9d3f824a4a4a.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-984aafed2a69d29bc5cd4e7baf209fa81591f366.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/libs/gson-2.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2f5481ff752b0e69ecba7070f8b0a645e570cc22">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/gson-2.2-cad887814c14a1797efecc98f5da6f1fab2efe2b.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/exploded-aar/com.daimajia.easing/library/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e88a9ed27f98f8c0701d03d5553ce6111ca34a5b">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/classes-c74d0e6d8f5ca8400a4d3f4dbcdddfd1405a20e0.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/library-2.4.0-5d27d042a7b22d90e2303b3980f4671ca20114de.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/libs/zxing-core-2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="001a5b8ccf93ca2fb7c40a94417f8485e3c8b4a6">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/zxing-core-2.0-8ab452856b632ee3f3e095a4977d6f30ddc09ba8.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/1.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d0650e4e44346616a2e5283f8091380bcde52556">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/classes-39f71c6cc5a2439a10083e2347571cc7b8c3c465.jar" />
+    </item>
+    <item
+        jar="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/exploded-aar/ShopBillSample.app.libraries/swipelibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="dab09f151d2745cbd87dce1942a5a836514ca98b">
+        <dex dex="/Users/yunusdawji/Downloads/ShopBillSample/app/build/intermediates/pre-dexed/debug/classes-86cc3734176c00686b62793f204d4458c8dcbf14.jar" />
+    </item>
+
+</items>

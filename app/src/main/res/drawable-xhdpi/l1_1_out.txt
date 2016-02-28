@@ -1,0 +1,5 @@
+pintos	  9	 +2
+reneg	 22	 -2
+
+The maximum points by any team is   22
+The longest winning streak is    2
